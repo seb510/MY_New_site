@@ -186,14 +186,14 @@ h1,h2, h3, h4, h5, h6{
     width: 360px;
     margin: 10px;
     padding: 40px;
-    border: solid 1px white;
+    /*border: solid 2px white;*/
     background-color: white;
     transition: 0.2s ease-out;
 }
 .res:hover {
     background-color: #00897b;
     color: white;
-    border: 1px rgba(255, 255, 255, 0);
+
 }
 .res__img{
     margin: 10px 15px;
@@ -202,7 +202,6 @@ h1,h2, h3, h4, h5, h6{
 
 .res__title{
     padding: 15px 0;
-
 }
 
 .res__text{
@@ -216,7 +215,7 @@ h1,h2, h3, h4, h5, h6{
 .res_butt{
     text-align: center;
     padding: 10px 30px;
-    border: solid black;
+    border: solid 1px black;
     color: black;
     text-transform: uppercase;
     text-decoration: none;
@@ -226,10 +225,9 @@ h1,h2, h3, h4, h5, h6{
 
 .res_butt:hover{
     color: white;
-    border: solid white;
+    border: solid 1px white;
     text-decoration: none;
     cursor: pointer;
-
 }
 
 
@@ -400,19 +398,19 @@ h1,h2, h3, h4, h5, h6{
 
 }
 .men__social__min{
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background:#f0f1f1 ;
     margin: 15px;
     width:46px;
     height:46px;
-    padding: 10px;
-    text-align:center;
     border-radius: 5px;
     transition: 0.3s ease-out;
 }
 
 .men__social__min.face:hover{
-    background: radial-gradient(80% 50%, white, #3b5998);
+    background: cornflowerblue;
 
 
 }
