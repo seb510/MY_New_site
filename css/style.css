@@ -431,11 +431,8 @@ h1,h2, h3, h4, h5, h6{
 
         /*SECTION BLOG*/
 
-.seo{
-
-}
 .seo__img{
-    width: 560px;
+    width: 565px;
     height: 400px;
 }
 
@@ -464,7 +461,6 @@ h1,h2, h3, h4, h5, h6{
     color: black;
     font-size: 17px;
     font-weight: 600;
-
 }
 
 .seo__calend{
