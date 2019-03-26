@@ -376,56 +376,53 @@ h1,h2, h3, h4, h5, h6{
 .men{
     display: block;
     margin-bottom: 35px;
-
 }
 
-.men__pictures{
-
-
-}
 .men__title{
     margin: 20px;
     text-align: center;
     text-transform: capitalize;
-
-}
-.men__title__name{
-
 }
 
-.men__title p {
-
-
-}
 .men__social__min{
     display: flex;
     justify-content: center;
     align-items: center;
-    background:#f0f1f1 ;
+    background:#f0f1f1;
+    color:#00897b;
     margin: 15px;
     width:46px;
     height:46px;
     border-radius: 5px;
     transition: 0.3s ease-out;
+
+}
+
+.fab, .fas{
+    font-size: 25px;
+
 }
 
 .men__social__min.face:hover{
     background: cornflowerblue;
-
-
+    color:#fff;
+    text-decoration: none;
 }
 
 .men__social__min.twit:hover{
     background:#00acee;
     color:#fff;
+    text-decoration: none;
 }
 .men__social__min.mas:hover{
-    background:#0e76a8;
+    background:#36aee7;
     color:#fff;
+    text-decoration: none;
 }
 .men__social__min.ball:hover{
     background:#d52b2b;
     color:#fff;
+    text-decoration: none;
 }
 
 
@@ -452,19 +449,11 @@ h1,h2, h3, h4, h5, h6{
     text-decoration: none;
 }
 
-.seo__call{
-
-
-}
 .seo__group{
     margin: 20px 0 10px;
     color: black;
     font-size: 17px;
     font-weight: 600;
-}
-
-.seo__calend{
-
 }
 
 .seo__doc{
