@@ -197,7 +197,6 @@ h1,h2, h3, h4, h5, h6{
 }
 .res__img{
     margin: 10px 15px;
-
 }
 
 .res__title{
@@ -234,7 +233,6 @@ h1,h2, h3, h4, h5, h6{
         /*SECTION WORKS*/
 .work{
     margin: 5px 0 80px;
-
 }
 
 .work__button{
@@ -266,6 +264,12 @@ h1,h2, h3, h4, h5, h6{
     padding-top: 10px;
 }
 
+
+.object__img {
+    position: relative;
+}
+
+
 .work.works{
     margin: 120px 120px;
 }
@@ -283,25 +287,13 @@ h1,h2, h3, h4, h5, h6{
     text-align: center;
     background: white;
     background: linear-gradient(-9deg, transparent 408px, #3949ab 0)right,linear-gradient(transparent 15px, white 0) left;
-    /*position: relative;*/
-    /*z-index: 9;*/
-
     margin-bottom: 60px;
     transition: 0.3s ease-out;
 }
 
-/*.free:before {*/
-    /*content: "";*/
-    /*position: absolute;!*set 'child' to be absolute*!*/
-    /*z-index: -1;*/
-    /*top: 0;*/
-    /*right:0;*/
-    /*bottom: 68%;*/
-    /*left: 0;*/
-    /*background: #3949ab;*/
-/*}*/
+
 .free:hover{
-    /*box-shadow:5px 5px 5px 5px #d1d2d2;*/
+
     box-shadow:0 -5px 30px rgba(0,0,0,0.25), 0 8px 10px rgba(0,0,0,0.10);
 
 }
@@ -309,15 +301,14 @@ h1,h2, h3, h4, h5, h6{
 .free__tittle{
     margin-top: 45px;
     color: white;
-
 }
 
 .free__title__main{
     font-size: 18px;
     text-transform: capitalize;
 
-
 }
+
 .free__title_price{
     text-align: center;
 
