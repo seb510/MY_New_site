@@ -1,4 +1,3 @@
-
 body {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
@@ -12,10 +11,9 @@ ul, li{
 
 h1,h2, h3, h4, h5, h6{
     padding: 0;
-
 }
 
-            /*HEADR*/
+            /*HEADER*/
 .logo{
     font-size: 25px;
     margin-top: 25px;
@@ -25,21 +23,19 @@ h1,h2, h3, h4, h5, h6{
 .menu{
     margin-top: 32px;
     transition: 3s;
-
 }
 
 .menu__item{
     font-weight: 700;
     font-size: 18px;
-
 }
 
 .menu__item a{
     color:#212121;
     text-transform: capitalize;
     transition: 0.2s ease-out;
-
 }
+
 .menu__item a:hover {
     color: #00897b;
     text-decoration: none;
@@ -53,7 +49,6 @@ h1,h2, h3, h4, h5, h6{
 .offer{
     background: url("../img/header.jpg") no-repeat center top;
     margin-top: 40px;
-
 }
 
 .title{
@@ -61,11 +56,11 @@ h1,h2, h3, h4, h5, h6{
     color: #fff;
     margin-top: 250px;
 }
+
 .title__heading{
     font-size: 50px;
     font-weight: 700;
     letter-spacing: 5px;
-
 }
 
 .title__desc{
@@ -77,7 +72,6 @@ h1,h2, h3, h4, h5, h6{
 .buttons{
     text-align: center;
     margin-top: 105px;
-
 }
 
 .click {
@@ -94,18 +88,19 @@ h1,h2, h3, h4, h5, h6{
     user-select: none;
     outline: none;
     border-radius: 1px;
-
 }
+
 .click:hover {
     color: white;
     background: #00897b;
     border: solid  2px rgba(255, 255, 255, 0);
     text-decoration: none;
     cursor: pointer;
-
 }
-.click:active { background: white; }
 
+.click:active {
+    background: white;
+}
 
 .header__arrow {
     text-align: center;
@@ -113,27 +108,26 @@ h1,h2, h3, h4, h5, h6{
     transform: rotate(90deg);
     margin: 100px 70px;
 }
+
 .header__arrow a {
     color: white;
     font-size: 55px;
     text-decoration: none;
     transition: 0.2s ease-out;
 }
+
 .header__arrow a:hover{
     color: #00897b;;
-
 }
 
     /*SECTION ABOUT*/
 
 /*Універсальні теги*/
 
-
 .text{
     color: black;
     text-align: center;
     margin: 120px 105px;
-
 }
 
 .text__main{
@@ -141,13 +135,11 @@ h1,h2, h3, h4, h5, h6{
     font-weight: 700;
     text-transform: capitalize;
     padding-bottom: 25px;
-
 }
 
 .text__all{
     font-size: 15px;
     font-weight: 500;
-
 }
 
 .about{
@@ -163,13 +155,11 @@ h1,h2, h3, h4, h5, h6{
     padding: 20px;
     font-size: 25px;
     font-weight: 700;
-
 }
 
 .about__text{
     font-size: 20px;
     font-weight: 500;
-
 }
 
 
@@ -190,11 +180,12 @@ h1,h2, h3, h4, h5, h6{
     background-color: white;
     transition: 0.2s ease-out;
 }
+
 .res:hover {
     background-color: #00897b;
     color: white;
-
 }
+
 .res__img{
     margin: 10px 15px;
 }
@@ -248,7 +239,6 @@ h1,h2, h3, h4, h5, h6{
     transition: 0.2s ease-out;
 }
 
-
 .work__button:hover{
     background-color: #00897b;
     color: white;
@@ -264,16 +254,13 @@ h1,h2, h3, h4, h5, h6{
     padding-top: 10px;
 }
 
-
 .object__img {
     position: relative;
 }
 
-
 .work.works{
     margin: 120px 120px;
 }
-
 
         /*SECTION PlAN*/
 
@@ -291,11 +278,8 @@ h1,h2, h3, h4, h5, h6{
     transition: 0.3s ease-out;
 }
 
-
 .free:hover{
-
     box-shadow:0 -5px 30px rgba(0,0,0,0.25), 0 8px 10px rgba(0,0,0,0.10);
-
 }
 
 .free__tittle{
@@ -306,39 +290,31 @@ h1,h2, h3, h4, h5, h6{
 .free__title__main{
     font-size: 18px;
     text-transform: capitalize;
-
 }
 
 .free__title_price{
     text-align: center;
-
 }
+
 .free__title_price big{
     font-size: 35px;
 }
-.free__title_price sup {
 
-}
 .free__select{
     width: 176px;
     margin: 90px 0 30px 77px;
-
-
 }
+
 .free__select__chose{
     text-transform: capitalize;
     padding-bottom: 10px;
     font-size: 15px;
     color: #4d4d4d;
     border-bottom: solid 1px #bfbfbf;
-
-
 }
 
 .order{
     margin: 65px 0 60px;
-
-
 }
 
 .order__button{
@@ -386,12 +362,10 @@ h1,h2, h3, h4, h5, h6{
     height:46px;
     border-radius: 5px;
     transition: 0.3s ease-out;
-
 }
 
 .fab, .fas{
     font-size: 25px;
-
 }
 
 .men__social__min.face:hover{
@@ -405,11 +379,13 @@ h1,h2, h3, h4, h5, h6{
     color:#fff;
     text-decoration: none;
 }
+
 .men__social__min.mas:hover{
     background:#36aee7;
     color:#fff;
     text-decoration: none;
 }
+
 .men__social__min.ball:hover{
     background:#d52b2b;
     color:#fff;
@@ -456,8 +432,6 @@ h1,h2, h3, h4, h5, h6{
     font-size: 15px;
     color: black;
     font-weight: 500;
-
-
 }
 
 
@@ -466,13 +440,13 @@ h1,h2, h3, h4, h5, h6{
 .bacCont{
     background: url("../img/Rectangle.jpg") no-repeat top center;
 }
+
 .text.white{
     color: white;
 }
 
 .main{
     text-align: center;
-
 }
 
 .main__image{
@@ -484,6 +458,7 @@ h1,h2, h3, h4, h5, h6{
     background: #3949ab;
     border-radius: 50%;
 }
+
 .main__image.down{
     padding-top: 28px;
 }
@@ -508,6 +483,7 @@ input, textarea::-webkit-input-placeholder {
     font-size: 15px;
     font-weight: 700;
 }
+
 .name{
     border-radius: 5px;
     width: 494px;
@@ -520,7 +496,6 @@ input, textarea::-webkit-input-placeholder {
     outline: none;
 }
 
-
 .massage{
     border-radius: 5px;
     background: #fff;
@@ -532,6 +507,7 @@ input, textarea::-webkit-input-placeholder {
     padding: 15px 0 0 15px;
     margin-top: 40px;
 }
+
 .button__send{
     margin: 40px 15px 80px 0 ;
     display: block;
@@ -550,10 +526,12 @@ input, textarea::-webkit-input-placeholder {
     outline: none;
     transition: all 0.3s ease;
 }
+
 .button__send:hover{
     background: #4d4d4d;
     color: white;
 }
+
         /*SECTION FOOTER*/
 
 .foot_title{
@@ -561,5 +539,4 @@ input, textarea::-webkit-input-placeholder {
     color: black;
     font-size: 17px;
     font-weight: 700;
-
 }
