@@ -247,9 +247,6 @@ h1,h2, h3, h4, h5, h6{
     cursor: pointer;
 }
 
-.object{
-
-}
 .object__img{
     padding-top: 10px;
 }
@@ -338,7 +335,7 @@ h1,h2, h3, h4, h5, h6{
 
 /*SECTION Slider Member*/
 
-/*SECTION Slider Member*/
+
 
 .men{
     display: block;
@@ -391,6 +388,7 @@ h1,h2, h3, h4, h5, h6{
     color:#fff;
     text-decoration: none;
 }
+/*SECTION Slider Member*/
 
 
         /*SECTION BLOG*/
