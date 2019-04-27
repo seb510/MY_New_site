@@ -14,5 +14,16 @@ $(function () {
                 items:3
             }
         }
-    })
+    });
+
+    $(window).scroll(function () {
+        $('.block').each(function () {
+            var elPos = $(this).offset().top;
+            var topOfWindow = $(window).scrollTop();
+            if (elPos < topOfWindow + 700) {
+                $(this).addClass("fadeInLeft");
+            }
+        });
+    });
+
 }) ;
