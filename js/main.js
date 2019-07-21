@@ -27,3 +27,7 @@ $(function () {
     });
 
 }) ;
+
+function list() {
+    alert("This function work");
+}
