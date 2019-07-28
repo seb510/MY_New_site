@@ -27,6 +27,7 @@ $(function () {
             }
         });
     });
+
 // Плавний перехід по силках на сторінці
     $(document).ready(function(){
         $("#menu").on("click","a", function (event) {
