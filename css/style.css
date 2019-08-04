@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;/*убираем скрол прокрутки*/
 }
 
 ul, li{
@@ -684,6 +685,11 @@ input, textarea::-webkit-input-placeholder {
         margin: 10px 0;
     }
 
+    .free__select {
+        width: 95%;
+        margin: 5px;
+    }
+
     .buttons {
         margin: 5px 0;
     }
@@ -697,20 +703,20 @@ input, textarea::-webkit-input-placeholder {
         margin: 0;
     }
 
-
-
     .res {
         width: 70%;
         margin: 10px auto;
         padding: 40px;
-        
-}
+    }
 
     .work {
         display: flex;
         flex-direction: column;
         align-items: center;
-        
+    }
+
+    .work.works {
+        margin: 0;
     }
 
     .work__button {
