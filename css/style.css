@@ -247,13 +247,23 @@ h1,h2, h3, h4, h5, h6{
     cursor: pointer;
 }
 
-.object__img{
-    padding-top: 10px;
+.object:hover .object__img {
+    transform: scale(0.9);
+    margin: 5px;
 }
 
 .object__img {
-    position: relative;
+    background: #297770;
+    padding: 5px;
+    transition: 1s;
+    margin: 5px 0;
+    width: 100%;
 }
+
+.object__img:hover{
+    transform: scale(1.1) !important;
+}
+
 
 /*a { display: block; position: relative; }*/
 
